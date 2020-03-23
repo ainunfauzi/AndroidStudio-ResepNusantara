@@ -12,103 +12,272 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp"
-                android:paddingLeft="3dp"
-                android:paddingRight="3dp">
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
 
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/abondagingsapi" />
+                    android:layout_width="wrap_content">
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/abondagingsapi" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/acarcampur" />
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarcampur" />
+
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp"
-                android:paddingLeft="3dp"
-                android:paddingRight="3dp">
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
 
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/acarcampur1" />
+                    android:layout_width="wrap_content">
 
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarcampur1" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/acarkuning" />
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarkuning" />
+
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp"
-                android:paddingLeft="3dp"
-                android:paddingRight="3dp">
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
 
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/abondagingsapi" />
+                    android:layout_width="wrap_content">
 
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/abondagingsapi" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/acarcampur" />
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarcampur" />
+
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp"
-                android:paddingLeft="3dp"
-                android:paddingRight="3dp">
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
 
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/acarcampur1" />
+                    android:layout_width="wrap_content">
 
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarcampur1" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/acarkuning" />
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarkuning" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/abondagingsapi" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarcampur" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarcampur1" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        tools:ignore="ContentDescription"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/acarkuning" />
+
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
