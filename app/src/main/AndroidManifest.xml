@@ -13,6 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AyamCabeIjo"
+            android:label="@string/title_activity_ayam_cabe_ijo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AyamBakarKecap"
+            android:label="@string/title_activity_ayam_bakar_kecap"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">

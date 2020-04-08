@@ -1,16 +1,16 @@
-package com.abc.resepnusantara.ui.home;
+package com.abc.resepnusantara.ui.Ayam;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class AyamViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public AyamViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is ayam fragment");
     }
 
     public LiveData<String> getText() { return mText; }

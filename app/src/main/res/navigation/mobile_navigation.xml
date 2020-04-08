@@ -16,18 +16,40 @@
         android:name="com.abc.resepnusantara.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_ayam"
+        android:name="com.abc.resepnusantara.ui.Ayam.Ayam"
+        android:label="Ayam"
+        tools:layout="@layout/fragment_ayam" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.abc.resepnusantara.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_bebek"
+        android:name="com.abc.resepnusantara.ui.Bebek.Bebek"
+        android:label="@string/bebek"
+        tools:layout="@layout/fragment_bebek" />
+    <fragment
+        android:id="@+id/nav_buah"
+        android:name="com.abc.resepnusantara.ui.Buah.Buah"
+        android:label="@string/buah"
+        tools:layout="@layout/fragment_buah" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.abc.resepnusantara.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_cumi"
+        android:name="com.abc.resepnusantara.ui.Cumi.Cumi"
+        android:label="@string/cumi"
+        tools:layout="@layout/fragment_cumi" />
+
+    <fragment
+        android:id="@+id/nav_daging"
+        android:name="com.abc.resepnusantara.ui.Daging.Daging"
+        android:label="@string/daging"
+        tools:layout="@layout/fragment_daging" />
+
+    <fragment
+        android:id="@+id/nav_ikan"
+        android:name="com.abc.resepnusantara.ui.Ikan.Ikan"
+        android:label="@string/ikan"
+        tools:layout="@layout/fragment_ikan" />
 
     <fragment
         android:id="@+id/nav_share"

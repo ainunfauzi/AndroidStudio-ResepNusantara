@@ -12,14 +12,34 @@
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/menu">
         <menu>
+            <item
+                android:id="@+id/nav_ayam"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/ayam" />
+            <item
+                android:id="@+id/nav_bebek"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/bebek" />
+            <item
+                android:id="@+id/nav_buah"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/buah" />
+            <item
+                android:id="@+id/nav_cumi"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/cumi" />
+            <item
+                android:id="@+id/nav_daging"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/daging" />
+            <item
+                android:id="@+id/nav_ikan"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/ikan" />
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"

@@ -38,7 +38,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/abondagingsapi" />
+                        android:background="@drawable/abondagingsapi"
+                        android:onClick="Pindah"/>
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -55,7 +56,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/acarcampur" />
+                        android:background="@drawable/acarcampur"
+                        android:onClick="Pindah1"/>
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -82,7 +84,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/acarcampur1" />
+                        android:background="@drawable/acarcampur1"
+                        android:onClick="Pindah"/>
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -99,7 +102,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/acarkuning" />
+                        android:background="@drawable/acarkuning"
+                        android:onClick="Pindah"/>
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
