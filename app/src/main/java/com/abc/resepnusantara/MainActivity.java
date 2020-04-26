@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_share,
-                R.id.nav_send, R.id.nav_ayam, R.id.nav_bebek, R.id.nav_buah, R.id.nav_cumi, R.id.nav_daging, R.id.nav_ikan)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_ayam, R.id.nav_bebek, R.id.nav_buah, R.id.nav_cumi, R.id.nav_daging, R.id.nav_ikan)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -72,8 +71,61 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, AyamBakarKecap.class);
         startActivity(intent);
     }
+
     public void AyamCabeIjo(View view) {
         Intent intent = new Intent(MainActivity.this, AyamCabeIjo.class);
         startActivity(intent);
     }
+
+    public void BebekBacem(View view) {
+        Intent intent = new Intent(MainActivity.this, BebekBacem.class);
+        startActivity(intent);
+    }
+
+    public void BebekGorengCabeIjo(View view) {
+        Intent intent = new Intent(MainActivity.this, BebekGorengCabeIjo.class);
+        startActivity(intent);
+    }
+
+    public void BrowniesFruityMix(View view) {
+        Intent intent = new Intent(MainActivity.this, BrowniesFruityMix.class);
+        startActivity(intent);
+    }
+
+    public void FruitTerineSausStrawberry(View view) {
+        Intent intent = new Intent(MainActivity.this, FruitTerineSausStrawberry.class);
+        startActivity(intent);
+    }
+
+    public void CumiAsinCabeHijau(View view) {
+        Intent intent = new Intent(MainActivity.this, CumiAsinCabeHijau.class);
+        startActivity(intent);
+    }
+
+    public void CumiBakar(View view) {
+        Intent intent = new Intent(MainActivity.this, CumiBakar.class);
+        startActivity(intent);
+    }
+
+    public void Asam2Iga(View view) {
+        Intent intent = new Intent(MainActivity.this, Asam2iga.class);
+        startActivity(intent);
+    }
+
+    public void BeefTeriyaki(View view) {
+        Intent intent = new Intent(MainActivity.this, BeefTeriyaki.class);
+        startActivity(intent);
+    }
+
+    public void BalaTeriSayuran(View view) {
+        Intent intent = new Intent(MainActivity.this, BalaTeriSayuran.class);
+        startActivity(intent);
+    }
+
+    public void BaladoTeri(View view) {
+        Intent intent = new Intent(MainActivity.this, BaladoTeri.class);
+        startActivity(intent);
+    }
+
+
 }

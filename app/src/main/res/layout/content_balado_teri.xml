@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".AyamBakarKecap"
-    tools:showIn="@layout/activity_ayam_bakar_kecap">
+    tools:context=".BaladoTeri"
+    tools:showIn="@layout/activity_balado_teri">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:text="@string/ayam_bakar_kecap" />
+        android:text="@string/large_text" />
 
 </androidx.core.widget.NestedScrollView>

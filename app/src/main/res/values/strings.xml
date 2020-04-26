@@ -20,7 +20,46 @@
     <string name="menu">Menu</string>
     <string name="resep_nusantara">Resep Nusantara</string>
     <string name="resepnusantara_com">resepnusantara.com</string>
-    <string name="title_activity_ayam_cabe_ijo">AyamCabeIjo</string>
+
+    <string name="ayam_bakar_kecap">
+        "Material is the metaphor.\n\n"
+        "Tips untuk memasak ayam bakar yang enak adalah bara api dari arang jangan terlalu besar, agar ayam dapat matang merata dan kulit tidak gosong."
+        "Jangan lupa oleskan sedikit mentega pada saat ayam dibakar agartidak lengket. Selain itu mentega juga dapat membuat aroma lebih harum dan rasa Iebih gurih. Lebih baik dibakar sesaat sebelum disajikan.\n\n"
+        "Bahan Bahan\n\n"
+
+        "Bahan Utama:\n"
+        "-1 ekor ayam, potong menjadi 4 bagian 2 sendok teh garam\n"
+        "-1 buah jeruk nipis, peras aimya\n"
+        "-250 ml kaldu ayam\n"
+        "-2 sdm mentega\n\n"
+
+        "Bumbu\n"
+        "7 butir bawang merah\n"
+        "4 siung bawang putih\n"
+        "1/2 sdt ketumbar\n"
+        "1/2 sdt pala bubuk\n"
+        "1/2 sdt merica\n"
+        "1 sdt garam\n"
+        "2 sdm minyak goreng\n"
+        "5 sendok makan kecap manis\n\n"
+
+        "Sambal:\n\n"
+        "5 sendok makan kecap manis\n"
+        "3 buah cabai rawit iris tipis \n"
+        "1 buahjeruklimau \n"
+
+
+        "Cara Membuat\n\n"
+        "1. Cuci dan bersihkan ayam, kemudian potong menjadi 4 bagian \n"
+        "2. Lumuri dengan perasan air jeruk nipis dan garam. Diamkan sekitar 15 menit \n"
+        "3. Haluskan bawang merah, bawang putih dan ketumbar \n"
+        "4. Panas minyak dan tumis bumbu halus hingga harum, kemudian tambahkan pala bubuk, merica dan garam. \n"
+        "5. Masukkan potongan ayam kemudian tuangkan kaldu ayam dan tambahkan kecap manis, aduk rata. Ungkep hingga ayam menjadi empuk dan masak hingga kaldu habis. Angkat dan sisihkan /n"
+        "6. Bakar ayam di atas bara arang sambil olesi mentega. Bolak balik hingga matang merata /n"
+        "7. Sajikan bersama dengan nasi hangat dan sambal kecap /n"
+
+    </string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -110,5 +149,17 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
     <string name="title_activity_ayam_bakar_kecap">AyamBakarKecap</string>
+    <string name="title_activity_ayam_cabe_ijo">AyamCabeIjo</string>
+    <string name="title_activity_bebek_bacem">BebekBacem</string>
+    <string name="title_activity_bebek_goreng_cabe_ijo">BebekGorengCabeIjo</string>
+    <string name="title_activity_brownies_fruity_mix">BrowniesFruityMix</string>
+    <string name="title_activity_fruit_terine_saus_strawberry">FruitTerineSausStrawberry</string>
+    <string name="title_activity_cumi_asin_cabe_hijau">CumiAsinCabeHijau</string>
+    <string name="title_activity_cumi_bakar">CumiBakar</string>
+    <string name="title_activity_asam2iga">Asam2iga</string>
+    <string name="title_activity_beef_teriyaki">BeefTeriyaki</string>
+    <string name="title_activity_bala_teri_sayuran">BalaTeriSayuran</string>
+    <string name="title_activity_balado_teri">BaladoTeri</string>
 </resources>

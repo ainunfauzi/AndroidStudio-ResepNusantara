@@ -13,12 +13,52 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AyamCabeIjo"
-            android:label="@string/title_activity_ayam_cabe_ijo"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
             android:name=".AyamBakarKecap"
             android:label="@string/title_activity_ayam_bakar_kecap"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BaladoTeri"
+            android:label="@string/title_activity_balado_teri"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BalaTeriSayuran"
+            android:label="@string/title_activity_bala_teri_sayuran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeefTeriyaki"
+            android:label="@string/title_activity_beef_teriyaki"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Asam2iga"
+            android:label="@string/title_activity_asam2iga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CumiBakar"
+            android:label="@string/title_activity_cumi_bakar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CumiAsinCabeHijau"
+            android:label="@string/title_activity_cumi_asin_cabe_hijau"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FruitTerineSausStrawberry"
+            android:label="@string/title_activity_fruit_terine_saus_strawberry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrowniesFruityMix"
+            android:label="@string/title_activity_brownies_fruity_mix"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BebekGorengCabeIjo"
+            android:label="@string/title_activity_bebek_goreng_cabe_ijo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BebekBacem"
+            android:label="@string/title_activity_bebek_bacem"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AyamCabeIjo"
+            android:label="@string/title_activity_ayam_cabe_ijo"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
